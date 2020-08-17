@@ -35,10 +35,20 @@ dev_dependencies:
 # The following section is specific to Flutter.
 flutter:
 
+flutter_icons:
+  image_path: "assets/icons/ic_launcher.png"
+  android: true
+  ios: true
+
   # The following line ensures that the Material Icons font is
   # included with your application, so that you can use the icons in
   # the material Icons class.
   uses-material-design: true
+
+  assets:
+    - assets/images/
+    - assets/icons/
+    - assets/lang/
 
   # To add assets to your application, add an assets section, like this:
   # assets:
